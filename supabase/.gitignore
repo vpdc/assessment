@@ -1,0 +1,74 @@
+# --------------------------------------------------
+# Supabase Local Dev & CLI
+# --------------------------------------------------
+
+# Docker-related (generated when running `supabase start`)
+docker/*.tar
+.temp/
+.branches/
+.netrc
+.config
+
+# Supabase local database & runtime
+.local/
+migrations/.snapshots/
+
+# Supabase configs the CLI auto-generates
+functions/.expo/
+
+# --------------------------------------------------
+# Environment Variables
+# --------------------------------------------------
+.env
+.env.*
+!env.example
+
+# --------------------------------------------------
+# Node / Deno / Bun
+# --------------------------------------------------
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Deno (for Edge Functions)
+deno.lock
+deno_dir/
+
+# Bun
+bun.lockb
+
+# --------------------------------------------------
+# Build Output
+# --------------------------------------------------
+dist/
+build/
+.out/
+.vercel/
+.netlify/
+functions/vendor/
+
+# --------------------------------------------------
+# Logs
+# --------------------------------------------------
+logs/
+*.log
+
+# --------------------------------------------------
+# OS / Editor files
+# --------------------------------------------------
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+
+.coverage
+coverage
+dist
+lib
+

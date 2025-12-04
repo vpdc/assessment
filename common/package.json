@@ -1,0 +1,38 @@
+{
+  "name": "vince-common",
+  "version": "0.0.15",
+  "type": "commonjs",
+  "main": "./lib/index.js",
+  "types": "./lib/types/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@temporalio/client": "^1.13.2",
+    "@types/luxon": "^3.7.1",
+    "luxon": "^3.7.2",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "@babel/preset-typescript": "^7.28.5",
+    "@types/jest": "^30.0.0",
+    "@types/sinon": "^21.0.0",
+    "babel-jest": "^30.2.0",
+    "eslint": "^9.39.1",
+    "eslint-plugin-jest": "^29.2.1",
+    "eslint-plugin-prettier": "^5.5.4",
+    "jest": "^30.2.0",
+    "sinon": "^21.0.0",
+    "ts-jest": "^29.4.6",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.48.1"
+  }
+}
