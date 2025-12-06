@@ -81,10 +81,11 @@ Supabase automatically provides REST endpoints for the `users` table:
 ```ts
 interface User {
   id: string;
-  firstName: string;
-  lastName: string;
+  first_name: string;
+  last_name: string;
   birthday: string; // ISO date string
   timezone: string; // IANA timezone string, e.g., "Asia/Manila"
+  created_at: string;
 }
 ```
 
