@@ -169,7 +169,7 @@ Follow each folder's README to run the system locally.
 ## Testing
 
 ```bash
-npm test
+yarn test
 ```
 
 - Tests cover **API endpoints, Scheduler, and Worker workflows**.  
